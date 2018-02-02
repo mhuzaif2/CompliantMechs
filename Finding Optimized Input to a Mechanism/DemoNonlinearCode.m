@@ -1,3 +1,6 @@
+% Code for Finding Curvature in a Beam using Finite Element Analysis
+% Courtesy: Prof. Girish Krishnan
+
 function [u, Ri,alpha]=DemoNonlinearCode(nodeSet,elemSet,Y,H,B,F,bc,numSubstep,cmdout)
 %f=zeros(3*nNode,1)
 %bc=dof that is constrained
