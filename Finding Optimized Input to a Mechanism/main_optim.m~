@@ -1,6 +1,10 @@
 
 % An optimization formulation that calculates the required force input to a
+<<<<<<< HEAD:Finding Optimized Input to a Mechanism/main_optim.m~
 % mechanism. The formulation uses the 'fmincon' function in MATLAB. 
+=======
+% 5 bar linkage mechanism giving a required displacement.
+>>>>>>> 8fee5b87ea1cfc055723b3381be676779b98c512:Finding Optimized Input to a Mechanism/Example_optim.m
 
 % P
 % Umer Huzaifa
