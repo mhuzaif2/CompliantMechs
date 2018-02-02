@@ -1,7 +1,6 @@
 
 % An optimization formulation that calculates the required force input to a
-% 5 bar linkage mechanism giving a required displacement orthogonal to the
-% direction of applied force
+% 5 bar linkage mechanism giving a required displacement.
 
 % Umer Huzaifa
 % 1st Feb 2018
