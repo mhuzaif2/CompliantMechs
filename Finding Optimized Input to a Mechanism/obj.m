@@ -37,6 +37,6 @@ function [ cost ] = obj_ex3( pinput, param )
     end    
     % Separating out the vertical position of end point of the fifth link
     d = d(200,2);         
-    cost = (d - 21)^2;
+    cost = (d - 25)^2;
 end
 

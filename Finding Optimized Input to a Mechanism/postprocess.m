@@ -1,7 +1,5 @@
-function postprocess_ex3(presult,param)
-%OBJ_CANNON plots the trajectory of the cannonball given launch parameters
-
-    u = presult(2:end);
+function postprocess(presult,param)
+    
     [nS, eS, param] = mech_def;
     B = param.B; H = param.H; Y = param.Y; inc = param.inc;  
     bc = param.bc;
@@ -21,6 +19,8 @@ function postprocess_ex3(presult,param)
     end
     title('The Undeflected Beam')
     
+    % The optimal loading condition:
+    sprintf('The optimal loading is: \n ')
     f=[1 2 presult]
     [u, Ri,alpha]=DemoNonlinearCode(nS,eS,Y,H,B,f,bc,inc,'off');
     
@@ -43,5 +43,6 @@ function postprocess_ex3(presult,param)
         end
    end
   title('The Deflected Beam')
+  sprintf('The position of deflected internal link is: \n')
 d (end,2)    
 end
